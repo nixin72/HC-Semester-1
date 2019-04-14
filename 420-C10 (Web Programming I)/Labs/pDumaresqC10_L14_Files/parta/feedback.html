@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Feedback form</title>
+
+<link href="styles/feedback.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<h1>Give us your feedback</h1>
+
+<form action="" method="get" name="fback" id="fback">
+<p><label class="textlabel">Last Name:</label><input type="text" name="lname" id="lname"  placeholder="Last Name" max="30" width="30" /></p>
+<p><label class="textlabel">First Name:</label> <input type="text" name="fname" id="fname"  placeholder="First Name" width="25" max="25" /></p>
+<p><label class="textlabel">Email:</label><input type="text" name="email" id="email"  placeholder="Email" width="50" max="60" /></p>
+<p><label class="textlabel">Phone Number:</label><input type="text" name="pnum" id="pnum"  placeholder="Phone Number" width="20" max="20" s/></p>
+<fieldset>
+<legend>How would you like to receive feeback? (Check all that apply)</legend>
+<p><input type="checkbox" name="chk_email" id="chk_email" checked="checked" class="checklabel" /><label class="textlabel">Email</label></p>
+
+<p><input type="checkbox" name="chk_phone" id="chk_phone" class="checklabel"/><label class="textlabel">Phone</label></p>
+
+<p><input type="checkbox" name="chk_fbook" id="chk_fbook" class="checklabel"/><label class="textlabel">Facebook</label></p>
+</fieldset>
+<p><label class="textlabel">Comments: </label>
+  <textarea name="cmt" cols="50" rows="6" id="cmt"  max="50" />
+  </textarea></p>
+<br />
+<p><label class="textlabel">Our Rating: </label><select>
+<option>--Select One--</option>
+<option>Excellent</option>
+<option>Good</option>
+<option>Fair</option>
+<option>Poor</option>
+<option>Bad</option>
+</select></p>
+<fieldset>
+<legend>How did you hear about us?</legend>
+<p><input type="radio" name="radio" id="radio" class="checklabel"/><label class="textlabel">Search Engine</label></p>
+<p><input type="radio" name="radio" id="radio" class="checklabel"/><label class="textlabel">Freinds</label></p>
+<p><input type="radio" name="radio" id="radio" class="checklabel"/><label class="textlabel">Advertisement</label></p>
+</fieldset>
+<br />
+<input type="submit" value="Tell Us" class="buttoncss" />
+</form>
+</body>
+</html>

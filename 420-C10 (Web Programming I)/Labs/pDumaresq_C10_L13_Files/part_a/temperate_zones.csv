@@ -1,0 +1,12 @@
+Zone,Fahrenheit,Example Cities
+1,Below -50 F,"Fairbanks, Alaska; Resolute, Northwest Territories (Canada)"
+2,-50 to -40 F,"Prudhoe Bay, Alaska; Flin Flon, Manitoba (Canada)"
+3,-40 to -30 F,"International Falls, Minnesota; St. Michael, Alaska"
+4,-30 to -20 F,"Minneapolis/St.Paul, Minnesota; Lewistown, Montana"
+5,-20 to -10 F,"Des Moines, Iowa; Illinois"
+6,-10 to 0 F,"St. Louis, Missouri; Lebanon, Pennsylvania"
+7,0 to 10 F,"Oklahoma City, Oklahoma; South Boston, Virginia"
+8,10 to 20 F,"Tifton, Georgia; Dallas, Texas"
+9,20 to 30 F,"Houston, Texas; St. Augustine, Florida"
+10,30 to 40 F,"Naples, Florida; Victorville, California"
+11,above 40 F,"Honolulu, Hawaii; Mazatlan, Mexico"

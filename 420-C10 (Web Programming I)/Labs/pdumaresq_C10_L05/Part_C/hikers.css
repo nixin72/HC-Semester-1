@@ -1,0 +1,14 @@
+.italic {font-style: italic}
+
+
+h3 {color: gray;
+	text-align: right;}
+
+h1, h2 {margin-left: 20px;
+		font-family: sans-serif;}
+
+h1 {border: 1px solid black}
+
+p {margin-left: 20px;
+	font-family: sans-serif;
+	font-size: 14pt}

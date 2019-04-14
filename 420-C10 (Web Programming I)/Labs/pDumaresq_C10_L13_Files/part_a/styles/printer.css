@@ -1,0 +1,13 @@
+@charset "utf-8";
+img {width: 100px;
+	 height: 75px;
+}
+
+.nav {display: none;
+}
+
+#contentlogo {font-size: 18pt;
+}
+
+#image {float: left;
+}

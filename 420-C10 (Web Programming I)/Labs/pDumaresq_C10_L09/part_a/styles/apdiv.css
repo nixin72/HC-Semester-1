@@ -1,0 +1,46 @@
+@charset "utf-8";
+body {
+	background-color: #FF9;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: .9em;
+}
+#apDiv1 {
+	position:absolute;
+	left:40px;
+	top:40px;
+	width:750px;
+	height:90px;
+	z-index:2;
+	background-color: #ff6600;
+	background-image: url(../images/gatineauhills.jpg);
+	background-repeat: none;
+	background-position: right;
+	font-size: 3em;
+	font-style: italic;
+	color: #ff9;
+	font-family: Verdana, Geneva, sans-serif;
+}
+#apDiv2 {
+	position:absolute;
+	left:140px;
+	top:285px;
+	width:250px;
+	height:188px;
+	z-index:1;
+}
+#apDiv3 {
+	position:absolute;
+	left:310px;
+	top:410px;
+	width:250px;
+	height:188px;
+	z-index:3;
+}
+#apDiv4 {
+	position:absolute;
+	left:340px;
+	top:195px;
+	width:250px;
+	height:188px;
+	z-index:3;
+}

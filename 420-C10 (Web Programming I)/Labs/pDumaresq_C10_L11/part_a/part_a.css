@@ -1,0 +1,33 @@
+#question1 {float: left;
+		    background-color: light-beige;
+			font-family: Verdana, sans-serif;
+			font-size: large;
+			padding: 20px;
+}
+
+.question2 {color: red;
+		   border-bottom-style: dotted;
+		   border-bottom-color: blue;
+}
+
+#question3 {margin-top: 20px;
+		   margin-right: 40px;
+		   background-color: light-gray;
+		   border-style: solid;
+}
+
+.question4 {margin-left: 15px;
+		   background-color: light-green;
+}
+
+
+#question5 {background-color: light-gray;
+		   font-weight: bold;
+		   padding: 10px;
+}
+
+ul {list-style-image: url('myimage.gif') 
+}
+
+ul {list-style-type: square;
+}

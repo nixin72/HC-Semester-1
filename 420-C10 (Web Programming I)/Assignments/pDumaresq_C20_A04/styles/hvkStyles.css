@@ -1,0 +1,282 @@
+@charset "utf-8";
+
+@media only screen and (max-width: 800px) {
+<!--Mobile CSS-->
+#mobileFooter {width: 100%;
+	      	text-align: center;
+			font-size: 0.8em;
+			font-family: Verdana, Geneva, sans-serif;
+			text-decoration: none;
+}
+#mobileNav {background-color: #422000;
+			padding: .2em;
+			border-style: solid;
+			border-width: 2px;
+			border-radius: 5px;
+}
+<!--Wrappers-->
+#leftColumn {float: left;
+			 width: 9%;
+			 background-color:#422000;
+			 border-style: solid;
+			 border-width: 3px;
+			 padding-right: 1em;
+			 margin-top: 1%;
+			 margin-left: 1%;
+			 border-radius: 5px;
+			 padding-bottom: 40%;
+			 display: none;
+}		
+body {background-color: #245000;
+	text-align: center;
+	font-size: 0.8em;
+	font-family: Verdana, Geneva, sans-serif;
+	text-decoration: none;
+	background: linear-gradient(#245000, #6e5535);
+}
+#rightColumn {width: 100%;
+			  height: 100%;			 			
+}
+.banner {display: inline-block;
+				 overflow: hidden;
+				/* background-image: url(../images/revisedLogo.PNG);*/
+		 		 background-size: 60%;
+		 		 background-repeat:no-repeat;
+		 		 background-color: #6e5535;
+		 		 background-position: center;
+		 		 border-style: solid;
+				 border-width: 5px;				
+		 		 margin-top: 1%;
+				 border-radius: 10px;
+}
+.navigation {height: 100%;
+}
+.content{font-family: Verdana, Geneva, sans-serif;
+				 font-size: 1.1em;
+				 text-align: left;
+				 background-color: #3C872D;
+				 padding-bottom: 5em;
+				 opacity: .9;
+				 margin-top: 1em;
+				 margin-bottom: 2em;
+				 padding-left: 2em;
+				 padding-right: 2em;
+				 border-style: solid;
+				 border-width: .2em;
+				 border-radius: 15px;
+}
+.content h1{text-align: center;	
+}
+.body {border-radius: 10px;
+		background-image: url(../images/background-forest.jpg);
+		border-radius: 15px;
+}
+#rightColumn .content .pageTitle h1 {
+			font-family: Verdana, Geneva, sans-serif;
+}
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	color: #000000;
+	text-decoration: underline;
+}
+a:hover {
+	text: #000066;
+	text-decoration: underline;				
+}
+.footer {
+	width: 100%;
+	text-align: center;
+	font-size: 0.8em;
+	font-family: Verdana, Geneva, sans-serif;
+	text-decoration: none;
+	display: none;
+}
+.content table h1 {text-align: left;
+	      		   font-size: 1em;
+}
+		
+}
+
+/*
+
+End of mobile
+
+*/
+
+@media screen and (min-width: 800px) {
+
+.mobileFooter {display: none;
+}
+
+#mobileNav {display: none;
+}
+
+#all {margin-left: 15%;
+	  margin-right: 15%;
+}
+#leftColumn {float: left;
+			 width: 9%;
+			 background-color:#422000;
+			 border-style: solid;
+			 border-width: 3px;
+			 padding-right: .5%;
+			 padding-left: .5%;
+			 margin-top: 1%;
+			 margin-left: 1%;
+			 border-radius: 5px;
+			 padding-bottom: 40%;
+}
+#rightColumn {float: right;
+			 width: 87.5%;
+			 height: 100%;
+			 margin-left: auto;
+}
+
+
+.banner {display: inline-block;
+		 overflow: hidden;
+		 background-image: url(../images/revisedLogo.PNG);
+		 background-size: 60%;
+		 background-repeat:no-repeat;
+		 background-color: #6e5535;
+		 background-position: center;
+		 margin-bottom: 1em;
+		 border-style: solid;
+		 border-width: 5px;
+		 margin-top: 1%;
+		 margin-right: 1em;
+		 border-radius: 10px;
+}
+.logo {float: right;
+}
+.navigation {height: 100%;
+}
+.body {background-image: url(../images/background-forest.jpg);
+	   margin-left: 1%;
+	   margin-right: 2%;
+	   border-radius: 10px;
+}
+.content{font-family: Verdana, Geneva, sans-serif;
+		 font-size: 1.5em;
+		 text-align: left;
+		 margin-top: 1em;
+ 		 margin-bottom: 2em;
+		 padding-left: 5em;
+		 padding-top: 2em;
+		 padding-bottom: 5em;
+		 padding-right: 5%; 
+		 border-top-style: solid;
+		 border-top-width: medium;
+		 border-radius: 10px;
+		 border-style:solid;
+		 border-width: 1px;
+		 opacity: .9;
+		 background-color: #3C872D;
+}
+.footer {
+	font-size: 0.8em;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+	text-decoration: none;
+	margin-left: auto;
+	margin-right: auto;	
+	margin-bottom: 8em;
+	margin: auto;
+	padding: 2em;
+	width: 100%;
+}
+
+
+body {background-color: #245000;
+			text-align: center;
+			font-size: 0.8em;
+			font-family: Verdana, Geneva, sans-serif;
+			text-decoration: none;
+			height: 100%;
+			background: linear-gradient(#245000, #6e5535);
+}
+
+
+#rightColumn .content .pageTitle h1 {
+	font-family: Verdana, Geneva, sans-serif;
+}
+.content h1{text-align: center;	
+}
+.content table h1 {text-align: left;
+				font-size: 1em;
+}
+.content .text {opacity: 0;
+	   background-color: transparent;
+}
+
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	color: #000;
+	text-decoration: underline;	
+}
+a:hover {
+	text: #000066;
+text-decoration: underline;				
+}
+
+/*HOME PAGE*/
+.homePage {float: left;
+		width: 60%;
+}
+
+.content img {
+	float: right;
+}
+
+/*HOURS PAGE*/
+.ratesPage {
+}
+
+
+
+/*HOURS PAGE*/
+.hours {
+}
+.hours table tr td img{
+	width: 30%;
+	float: right;
+}
+.hours table tr td {
+	float: left;
+}
+
+.staff {
+}
+.staff, img {float: left;
+}
+.staff
+
+.referencesPage {
+}
+
+.linksPage {
+}
+
+.contactPage {
+}
+
+.home
+
+
+
+
+/*	color scheme
+
+	3C872D (lighter green)
+	000000 (black)
+	422000 (darker brown)
+	0B872D (darker green)
+	6e5535 (lighter brown)
+	
+*/
